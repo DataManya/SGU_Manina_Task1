@@ -80,23 +80,17 @@
 
             <!--3 column-->
             <td width="200px" valign="top">
-                <form action="" method="get">
+                <form action="" method="post">
                     <div>
                             <label for="login">Логин:</label>
                             <input name="login" id="login" type="text" size="25" maxlength="30" placeholder="login" />                           
-                    </div>
-                </form>
-              <br />
-              
-              <form action="" method="post">
+                    </div>                
+                <br />                            
                     <div>
                             <label for="pd">Пароль:</label>
                             <input id="pd" name="pd" type="password" size="25" maxlength="5" placeholder="******" />                          
-                    </div>
-                </form>
-                <br />
-              
-              <form action="" method="get">
+                    </div>                
+                <br />                           
                     <div>
                         <select name="menu" size="1" autofocus>
                             <option selected="selected" value="first">Admin</option>
@@ -104,14 +98,14 @@
                             <option value="third">User</option>
                         </select>
                     </div>
-                <div>
-                    <label for="remember"></label>
-                    <input id="remember" name="remember" type="checkbox" value="yes" /> Запомни меня
-                </div>
-                <div>
-                    <label for="submit"></label>
-                    <input id="submit" type="submit" align="left" name="submit" value="Вход" />
-                </div>
+                    <div>
+                            <input id="remember" name="remember" type="checkbox" value="yes" />
+                            <label for="remember">Запомни меня</label>                     
+                    </div>
+                    <div>
+                            <label for="submit"></label>
+                            <input id="submit" type="submit" align="left" name="submit" value="Вход" />
+                    </div>
                 </form>               
             </td>
 
